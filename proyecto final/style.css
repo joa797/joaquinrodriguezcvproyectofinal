@@ -1,0 +1,65 @@
+h1 {
+    color: brown;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.foto-perfil {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    float: right;
+    width: 30%; 
+    height: 100%;
+  }
+  
+  .foto-perfil img {
+    width: 100%;
+    height: auto;
+    border-radius: 80%;
+    margin-bottom: 100px;
+  }
+
+  body {
+    font-family: sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: hsl(22, 66%, 41%);
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: hsl(22, 66%, 41%);
+    text-decoration: none;
+  }
+  
+  .card {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  h2 {
+    margin-top: 5px;
+  }
+  
+  section {
+    margin-bottom: 220px;
+  }
