@@ -48,7 +48,7 @@ h1 {
   }
   
   .card {
-    background-color: #f0f0f0;
+    background-color: #c4bebe;
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
@@ -63,3 +63,73 @@ h1 {
   section {
     margin-bottom: 220px;
   }
+
+  .skill-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skill-name {
+    display: inline-block;
+    width: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-bar {
+    background-color: #ddd;
+    height: 10px;
+    margin-top: 5px;
+  }
+  
+  .skill-level {
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-level-1 {
+    background-color: #c9701e;
+    width: 20%;
+  }
+  
+  .skill-level-2 {
+    background-color: #d4a41f;
+    width: 40%;
+  }
+  
+  .skill-level-3 {
+    background-color: #a8b81d;
+    width: 60%;
+  }
+  
+  .skill-level-4 {
+    background-color: #70b81f;
+    width: 80%;
+  }
+  
+  .skill-level-5 {
+    background-color: #376e13;
+    width: 100%;
+  }
+  
+  .nivelenletras {
+  width: 30%;
+  float: center;
+  }
+
+  #btnDesplegar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #listaDesplegable {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  

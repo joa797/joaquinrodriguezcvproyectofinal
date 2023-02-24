@@ -7,6 +7,9 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>CV Cecilia Lancaster</title>
 </head>
+
+<script src="script.js"></script>
+
 <body>
     <header>
     <section>
@@ -43,16 +46,45 @@
             <li>Con el gran maestre de Casterly Rock</li>
             <li>Curso de maldades</li>
           </ul>
+          <button id="btnDesplegar">Cursos adicionales</button>
+
+<ul id="listaDesplegable" style="display:none;">
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
+</ul>
+
         </section>
 
         <hr> 
     
+<!---Aclaración: las habilidades tienen barras de niveles con diferentes colores
+que van desde el naranja oscuro para niveles básicos, al verde oscuro para un nivel avanzado,
+pasando por el amarillo como nivel intermedio-->
+
         <section id="skills" class="card">
           <h2>Habilidades</h2>
-          <ul>
-            <li>Ser una madre guerrera y luchadora</li>
-            <li>Ser la más mala de la fortaleza roja</li>
-            <li>Estoy aprendiendo a usar fuego valyrio (todavia me cuesta)</li>
+          <ul class="skill-list">
+            <li>
+              <span class="skill-name"><b>Inglés</b></span>
+              <aside class="nivelenletras">Nivel avnazado</aside>
+              <div class="skill-bar">
+                <div class="skill-level skill-level-5"></div>
+              </div>
+            </li>
+            <li>
+              <span class="skill-name"><b>Portugués</b></span>
+              <aside class="nivelenletras">Nivel intermedio</aside>
+              <div class="skill-bar">
+                <div class="skill-level skill-level-3"></div>
+              </div>
+            </li>
+            <li>
+              <span class="skill-name">JavaScript</span>
+              <div class="skill-bar">
+                <div class="skill-level skill-level-2"></div>
+              </div>
+            </li>
           </ul>
         </section>
       </main>
