@@ -119,7 +119,7 @@ h1 {
   }
 
   #btnDesplegar {
-    background-color: #4CAF50;
+    background-color: #ce9040;
     color: white;
     padding: 10px;
     border: none;
@@ -128,8 +128,11 @@ h1 {
   }
   
   #listaDesplegable {
-    background-color: #f1f1f1;
+    background-color: #f3dcc7;
     padding: 10px;
     border-radius: 5px;
   }
   
+  i {
+    font-size: 24px;
+  }
