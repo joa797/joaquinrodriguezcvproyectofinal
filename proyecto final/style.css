@@ -27,9 +27,9 @@ h1 {
   }
   
   header {
-    background: #FDC830; 
-    background: -webkit-linear-gradient(to right, #FDC830, #F37335); 
-    background: linear-gradient(to right, #FDC830, #F37335); 
+    background: #cfae51; 
+    background: -webkit-linear-gradient(to right, #cfae51, #da8256); 
+    background: linear-gradient(to right, #cfae51, #da8256); 
     color: hsl(22, 66%, 41%);
     padding: 20px;
   }
@@ -64,7 +64,7 @@ h1 {
   }
   
   section {
-    margin-bottom: 180px;
+    margin-bottom: 130px;
   }
 
   .skill-list {
